@@ -1,31 +1,31 @@
-# Agents
+# 智能体（Agents）
 
-This directory contains samples and resources for building AI agents with Google Cloud.
+本目录包含使用 Google Cloud 构建 AI 智能体的示例和资源。
 
-## Subdirectories
+## 子目录
 
 ### adk
 
-The `adk` directory contains information about the Agent Development Kit (ADK).
+`adk` 目录包含有关 Agent Development Kit（ADK，智能体开发工具包）的相关信息。
 
 ### agent_engine
 
-The `agent_engine` directory contains notebooks that demonstrate how to use the Agent Engine on Vertex AI.
+`agent_engine` 目录包含演示如何在 Vertex AI 上使用 Agent Engine（智能体引擎）的 Notebook。
 
-**Notebooks:**
+**Notebook 列表：**
 
-- [Get started with Vertex AI Memory Bank](agent_engine/memory_bank/get_started_with_memory_bank.ipynb): Learn how to use Vertex AI Memory Bank to build stateful, context-aware conversational AI agents.
-- [A2A on Agent Engine](agent_engine/tutorial_a2a_on_agent_engine.ipynb): A tutorial on how to run a simple agent on Agent Engine.
-- [Claude with ADK on Agent Engine](agent_engine/tutorial_claude_with_adk_on_agent_engine.ipynb): A tutorial on using the Claude model with ADK on Agent Engine.
-- [Get Started with Code Execution](agent_engine/tutorial_get_started_with_code_execution.ipynb): A tutorial on how to get started with code execution on Agent Engine.
-- [Get Started with Live API on Agent Engine](agent_engine/tutorial_get_started_with_live_api_on_agent_engine.ipynb): A tutorial on how to get started with a live API on Agent Engine.
-- [MCP on Agent Engine](agent_engine/tutorial_mcp_on_agent_engine.ipynb): A tutorial on how to use the Multi-turn Conversation Platform (MCP) on Agent Engine.
+- [开始使用 Vertex AI Memory Bank](agent_engine/memory_bank/get_started_with_memory_bank.ipynb)：了解如何使用 Vertex AI Memory Bank（记忆库）构建有状态、上下文感知的对话式 AI 智能体。
+- [A2A on Agent Engine](agent_engine/tutorial_a2a_on_agent_engine.ipynb)：关于如何在 Agent Engine 上运行简单智能体的教程。
+- [Claude with ADK on Agent Engine](agent_engine/tutorial_claude_with_adk_on_agent_engine.ipynb)：在 Agent Engine 上结合 ADK 使用 Claude 模型的教程。
+- [开始使用代码执行功能](agent_engine/tutorial_get_started_with_code_execution.ipynb)：关于如何在 Agent Engine 上开始使用代码执行功能的教程。
+- [开始使用 Live API on Agent Engine](agent_engine/tutorial_get_started_with_live_api_on_agent_engine.ipynb)：关于如何在 Agent Engine 上开始使用实时 API 的教程。
+- [MCP on Agent Engine](agent_engine/tutorial_mcp_on_agent_engine.ipynb)：关于如何在 Agent Engine 上使用 Multi-turn Conversation Platform（MCP，多轮对话平台）的教程。
 
 ### gemini_data_analytics
 
-The `gemini_data_analytics` directory contains notebooks that demonstrate how to use Gemini for data analytics.
+`gemini_data_analytics` 目录包含演示如何使用 Gemini 进行数据分析的 Notebook。
 
-**Notebooks:**
+**Notebook 列表：**
 
-- [Intro to Gemini Data Analytics (HTTP)](gemini_data_analytics/intro_gemini_data_analytics_http.ipynb): An introduction to using Gemini for data analytics with the HTTP API.
-- [Intro to Gemini Data Analytics (SDK)](gemini_data_analytics/intro_gemini_data_analytics_sdk.ipynb): An introduction to using Gemini for data analytics with the Python SDK.
+- [Gemini 数据分析入门（HTTP）](gemini_data_analytics/intro_gemini_data_analytics_http.ipynb)：使用 HTTP API 通过 Gemini 进行数据分析的入门介绍。
+- [Gemini 数据分析入门（SDK）](gemini_data_analytics/intro_gemini_data_analytics_sdk.ipynb)：使用 Python SDK 通过 Gemini 进行数据分析的入门介绍。

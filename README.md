@@ -1,23 +1,25 @@
-# Generative AI on Google Cloud
+# Google Cloud 生成式 AI
 
-> **[Gemini 3.1 Pro](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro) has been released!**
+> **[Gemini 3.1 Pro](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro) 已正式发布！**
 >
-> Here are the latest notebooks and demos using the new model:
+> 以下是使用该新模型的最新笔记本和演示：
 >
-> - [Intro to Gemini 3.1 Pro](gemini/getting-started/intro_gemini_3_1_pro.ipynb)
+> - [Gemini 3.1 Pro 入门介绍](gemini/getting-started/intro_gemini_3_1_pro.ipynb)
 >
 <!-- markdownlint-disable MD033 -->
 
-This repository contains notebooks, code samples, sample apps, and other resources that demonstrate how to use, develop and manage generative AI workflows using [Generative AI on Google Cloud](https://cloud.google.com/ai/generative-ai) with [Vertex AI](https://cloud.google.com/vertex-ai).
+> **📌 提示：** 本仓库中的示例需要访问 Google Cloud 服务（Vertex AI 等），请确保您具备相应的网络访问环境。
 
-## Using this repository
+本仓库包含笔记本（Notebook）、代码示例、示例应用及其他资源，演示如何使用 [Google Cloud 生成式 AI](https://cloud.google.com/ai/generative-ai) 和 [Vertex AI](https://cloud.google.com/vertex-ai) 来使用、开发和管理生成式 AI 工作流程。
 
-[![Applied AI Summit: The cloud toolkit for generative AI](https://img.youtube.com/vi/xT7WW2SKLfE/hqdefault.jpg)](https://www.youtube.com/watch?v=xT7WW2SKLfE)
+## 如何使用本仓库
+
+[![Applied AI Summit：生成式 AI 的云端工具包](https://img.youtube.com/vi/xT7WW2SKLfE/hqdefault.jpg)](https://www.youtube.com/watch?v=xT7WW2SKLfE)
 
 <table>
   <tr>
     <th></th>
-    <th style="text-align: center;">Description</th>
+    <th style="text-align: center;">说明</th>
   </tr>
   <tr>
     <td>
@@ -26,7 +28,7 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <a href="gemini/"><code>gemini/</code></a>
     </td>
     <td>
-      Discover Gemini through starter notebooks, use cases, function calling, sample apps, and more.
+      通过入门笔记本、应用场景、函数调用（Function Calling）、示例应用等探索 Gemini 的能力。
     </td>
   </tr>
   <tr>
@@ -35,7 +37,7 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <br>
       <a href="search/"><code>search/</code></a>
     </td>
-    <td>Use this folder if you're interested in using <a href="https://cloud.google.com/enterprise-search">Vertex AI Search</a>, a Google-managed solution to help you rapidly build search engines for websites and across enterprise data. (Formerly known as Enterprise Search on Generative AI App Builder).</td>
+    <td>如果您希望使用 <a href="https://cloud.google.com/enterprise-search">Vertex AI Search</a>（一种由 Google 托管的解决方案，可帮助您快速构建面向网站和企业数据的搜索引擎，前身为"生成式 AI 应用构建器上的企业搜索"），请使用此目录。</td>
   </tr>
   <tr>
     <td>
@@ -43,7 +45,7 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <br>
       <a href="rag-grounding/"><code>rag-grounding/</code></a>
     </td>
-    <td>Use this folder for information on Retrieval Augmented Generation (RAG) and Grounding with Vertex AI. This is an index of notebooks and samples across other directories focused on this topic.</td>
+    <td>此目录提供检索增强生成（RAG，Retrieval Augmented Generation）和基于 Vertex AI 的接地（Grounding）相关信息，是其他目录中该主题相关笔记本和示例的索引。</td>
   </tr>
   <tr>
     <td>
@@ -52,13 +54,13 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <a href="vision/"><code>vision/</code></a>
     </td>
     <td>
-      Use this folder if you're interested in building your own solutions from scratch using features from Imagen on Vertex AI (Vertex AI Imagen API).
-      These are the features that Imagen on Vertex AI offers:
+      如果您希望使用 Vertex AI 上的 Imagen（Vertex AI Imagen API）从头构建自己的解决方案，请使用此目录。
+      Vertex AI 上的 Imagen 提供以下功能：
       <ul>
-        <li>Image generation</li>
-        <li>Image editing</li>
-        <li>Visual captioning</li>
-        <li>Visual question answering</li>
+        <li>图像生成</li>
+        <li>图像编辑</li>
+        <li>视觉描述（Visual Captioning）</li>
+        <li>视觉问答（Visual Question Answering）</li>
       </ul>
     </td>
   </tr>
@@ -69,7 +71,7 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <a href="audio/"><code>audio/</code></a>
     </td>
     <td>
-      Use this folder if you're interested in building your own solutions from scratch using features from Chirp, a version of Google's Universal Speech Model (USM) on Vertex AI (Vertex AI Chirp API).
+      如果您希望使用 Vertex AI 上的 Chirp（Google 通用语音模型 USM 的一个版本，即 Vertex AI Chirp API）从头构建自己的解决方案，请使用此目录。
     </td>
   </tr>
   <tr>
@@ -78,7 +80,7 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <br>
       <a href="setup-env/"><code>setup-env/</code></a>
     </td>
-    <td>Instructions on how to set up Google Cloud, the Vertex AI Python SDK, and notebook environments on Google Colab and Vertex AI Workbench.</td>
+    <td>关于如何配置 Google Cloud、Vertex AI Python SDK，以及在 Google Colab 和 Vertex AI Workbench 上设置笔记本环境的说明。</td>
   </tr>
   <tr>
     <td>
@@ -86,40 +88,40 @@ This repository contains notebooks, code samples, sample apps, and other resourc
       <br>
       <a href="RESOURCES.md"><code>RESOURCES.md</code></a>
     </td>
-    <td>Learning resources (e.g. blogs, YouTube playlists) about Generative AI on Google Cloud.</td>
+    <td>关于 Google Cloud 生成式 AI 的学习资源（例如博客、YouTube 播放列表）。</td>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
 
-## Related Repositories
+## 相关仓库
 
-- ✨ [Agent Development Kit (ADK) Samples](https://github.com/google/adk-samples): This repository provides ready-to-use agents built on top of the Agent Development Kit, designed to accelerate your development process. These agents cover a range of common use cases and complexities, from simple conversational bots to complex multi-agent workflows.
+- ✨ [Agent Development Kit (ADK) 示例](https://github.com/google/adk-samples)：该仓库提供基于 Agent Development Kit 构建的即用型智能体，旨在加速您的开发过程，涵盖从简单对话机器人到复杂多智能体工作流的各类常见场景。
 - [🚀 Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)
-  - A collection of production-ready Generative AI Agent templates built for Google Cloud.
-  - It accelerates development by providing a holistic, production-ready solution, addressing common challenges (Deployment & Operations, Evaluation, Customization, Observability) in building and deploying Gen AI agents.
+  - 一套专为 Google Cloud 构建的生产就绪型生成式 AI 智能体模板集合。
+  - 通过提供全面的生产就绪解决方案，解决构建和部署生成式 AI 智能体时的常见挑战（部署与运维、评估、定制化、可观测性），从而加速开发。
 - [Gemini Cookbook](https://github.com/google-gemini/cookbook/)
-- [Google Cloud Applied AI Engineering](https://github.com/GoogleCloudPlatform/applied-ai-engineering-samples)
-- [Vertex AI GenMedia Creative Studio](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio) - Experience Google's generative media foundational models + custom workflows.
-- [MCP Servers for GenMedia](https://goo.gle/vertex-genmedia-mcp) - Empower your agents with generative media tools.
-- [Generative AI for Marketing using Google Cloud](https://github.com/GoogleCloudPlatform/genai-for-marketing)
-- [Generative AI for Developer Productivity](https://github.com/GoogleCloudPlatform/genai-for-developers)
-- Vertex AI Core
-  - [Vertex AI Samples](https://github.com/GoogleCloudPlatform/vertex-ai-samples)
-  - [MLOps with Vertex AI](https://github.com/GoogleCloudPlatform/mlops-with-vertex-ai)
-  - [Developing NLP solutions with T5X and Vertex AI](https://github.com/GoogleCloudPlatform/t5x-on-vertex-ai)
-  - [AlphaFold batch inference with Vertex AI Pipelines](https://github.com/GoogleCloudPlatform/vertex-ai-alphafold-inference-pipeline)
-  - [Serving Spark ML models using Vertex AI](https://github.com/GoogleCloudPlatform/vertex-ai-spark-ml-serving)
-  - [Sensitive Data Protection (Cloud DLP) for Vertex AI Generative Models (PaLM2)](https://github.com/GoogleCloudPlatform/Sensitive-Data-Protection-for-Vertex-AI-PaLM2)
-- Conversational AI
-  - [Contact Center AI Samples](https://github.com/GoogleCloudPlatform/contact-center-ai-samples)
-  - [Reimagining Customer Experience 360](https://github.com/GoogleCloudPlatform/dialogflow-ccai-omnichannel)
-- Document AI
-  - [Document AI Samples](https://github.com/GoogleCloudPlatform/document-ai-samples)
-- Gemini in Google Cloud
+- [Google Cloud 应用 AI 工程](https://github.com/GoogleCloudPlatform/applied-ai-engineering-samples)
+- [Vertex AI GenMedia 创意工作室](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio) - 体验 Google 的生成式媒体基础模型与自定义工作流。
+- [GenMedia 的 MCP 服务器](https://goo.gle/vertex-genmedia-mcp) - 为您的智能体赋能生成式媒体工具。
+- [用于营销的生成式 AI（基于 Google Cloud）](https://github.com/GoogleCloudPlatform/genai-for-marketing)
+- [用于提升开发者生产力的生成式 AI](https://github.com/GoogleCloudPlatform/genai-for-developers)
+- Vertex AI 核心
+  - [Vertex AI 示例](https://github.com/GoogleCloudPlatform/vertex-ai-samples)
+  - [Vertex AI MLOps](https://github.com/GoogleCloudPlatform/mlops-with-vertex-ai)
+  - [使用 T5X 和 Vertex AI 开发 NLP 解决方案](https://github.com/GoogleCloudPlatform/t5x-on-vertex-ai)
+  - [使用 Vertex AI Pipelines 进行 AlphaFold 批量推理](https://github.com/GoogleCloudPlatform/vertex-ai-alphafold-inference-pipeline)
+  - [使用 Vertex AI 服务 Spark ML 模型](https://github.com/GoogleCloudPlatform/vertex-ai-spark-ml-serving)
+  - [Vertex AI 生成模型（PaLM2）的敏感数据保护（Cloud DLP）](https://github.com/GoogleCloudPlatform/Sensitive-Data-Protection-for-Vertex-AI-PaLM2)
+- 对话式 AI
+  - [联系中心 AI 示例](https://github.com/GoogleCloudPlatform/contact-center-ai-samples)
+  - [重塑客户体验 360](https://github.com/GoogleCloudPlatform/dialogflow-ccai-omnichannel)
+- Document AI（文档智能）
+  - [Document AI 示例](https://github.com/GoogleCloudPlatform/document-ai-samples)
+- Google Cloud 中的 Gemini
   - [Cymbal Superstore](https://github.com/GoogleCloudPlatform/cymbal-superstore)
-- Cloud Databases
-  - [Gen AI Databases Retrieval App](https://github.com/GoogleCloudPlatform/genai-databases-retrieval-app)
-- Other
+- 云数据库
+  - [Gen AI 数据库检索应用](https://github.com/GoogleCloudPlatform/genai-databases-retrieval-app)
+- 其他
   - [ai-on-gke](https://github.com/GoogleCloudPlatform/ai-on-gke)
   - [ai-infra-cluster-provisioning](https://github.com/GoogleCloudPlatform/ai-infra-cluster-provisioning)
   - [solutions-genai-llm-workshop](https://github.com/GoogleCloudPlatform/solutions-genai-llm-workshop)
@@ -133,14 +135,14 @@ This repository contains notebooks, code samples, sample apps, and other resourc
   - [genai-beyond-basics](https://github.com/meteatamel/genai-beyond-basics)
   - [Gemini by Example](https://geminibyexample.com)
 
-## Contributing
+## 贡献
 
-Contributions welcome! See the [Contributing Guide](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/CONTRIBUTING.md).
+欢迎贡献！请参阅[贡献指南](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/CONTRIBUTING.md)。
 
-## Getting help
+## 获取帮助
 
-Please use the [issues page](https://github.com/GoogleCloudPlatform/generative-ai/issues) to provide suggestions, feedback or submit a bug report.
+请使用 [Issues 页面](https://github.com/GoogleCloudPlatform/generative-ai/issues)提交建议、反馈或报告问题。
 
-## Disclaimer
+## 免责声明
 
-This repository itself is not an officially supported Google product. The code in this repository is for demonstrative purposes only.
+本仓库本身并非 Google 官方支持的产品。仓库中的代码仅用于演示目的。

@@ -1,7 +1,7 @@
-# Security Policy
+# 安全策略
 
-To report a security issue, please use [g.co/vulnz](https://g.co/vulnz).
+如需报告安全问题，请使用 [g.co/vulnz](https://g.co/vulnz)。
 
-The Google Security Team will respond within 5 working days of your report on g.co/vulnz.
+Google 安全团队将在您通过 g.co/vulnz 提交报告后的 5 个工作日内作出回应。
 
-We use g.co/vulnz for our intake, and do coordination and disclosure here using GitHub Security Advisory to privately discuss and fix the issue.
+我们使用 g.co/vulnz 接收安全问题报告，并通过 GitHub Security Advisory 进行协调和披露，以私下讨论和修复相关问题。
